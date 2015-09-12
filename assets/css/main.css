@@ -1,0 +1,36 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #121212;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    background: #121212 url(../img/BGBig.jpg) -640px -421px no-repeat;
+    background-size: 196%;
+}
+
+.sun {
+    width: 413px;
+    height: 414px;
+    margin: 0 auto;
+    top: 130px;
+    position: relative;
+    /*background: url('../img/Sprits/sun.png') center top;*/
+    background: url('../img/Sprits/sun.png') left center;
+    animation: play 1s steps(10) infinite;
+    -webkit-animation: play 18s steps(301) infinite;
+}
+
+@keyframes play {
+    100% {
+        /*background-position: center -123576px;*/
+        background-position: -124917px;
+    }
+}
+@-webkit-keyframes play {
+    100% {
+        /*background-position: center -123576px;*/
+        background-position: -124917px;
+    }
+}
