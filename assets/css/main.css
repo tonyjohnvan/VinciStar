@@ -28,6 +28,10 @@ body,html{
     z-index: 10;
 }
 
+.lowOpacity{
+    opacity: 0.6;
+}
+
 .sun {
     width: 413px;
     height: 414px;
