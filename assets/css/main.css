@@ -39,9 +39,9 @@ body,html{
     margin-left: -350px;
 
 
-    /*-webkit-animation:spinC 16s linear infinite;*/
-    /*-moz-animation:spinC 16s linear infinite;*/
-    /*animation:spinC 16s linear infinite;*/
+    -webkit-animation:spinC 16s linear infinite;
+    -moz-animation:spinC 16s linear infinite;
+    animation:spinC 16s linear infinite;
 }
 .middleStar{
     position: absolute;
@@ -54,9 +54,9 @@ body,html{
     margin-left: -85px;
 
 
-    /*-webkit-animation:spin 8s linear infinite;*/
-    /*-moz-animation:spin 8s linear infinite;*/
-    /*animation:spin 8s linear infinite;*/
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
 }
 
 
