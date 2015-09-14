@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+</head>
+<body>
+
+    <div class="scene">
+        <div class="animateSun">
+            <!--<img src="../assets/img/FrontPageEl/Trim-Start-of-ClipHiS.gif" alt=""/>-->
+        </div>
+        <div class="layer" data-depth="0.10">
+            <img src="../assets/img/FrontPageEl/RingOutter.png" class="OutterRing" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.20">
+            <img src="../assets/img/FrontPageEl/RingCenter.png" class="middleStar" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.15">
+            <img src="../assets/img/FrontPageEl/RingInner.png" alt="" class="InnnerRing"/>
+        </div>
+        <div class="layer" data-depth="0.30">
+            <img src="../assets/img/FrontPageEl/Logo1N2.png" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.60">
+            <img src="../assets/img/FrontPageEl/Logo2N2.png" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.35">
+            <img src="../assets/img/FrontPageEl/Logo1F.png" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.65">
+            <img src="../assets/img/FrontPageEl/Logo2F.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.10">
+            <img src="../assets/img/FrontPageEl/LogoBL1.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.15">
+            <img src="../assets/img/FrontPageEl/LogoBL2.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.20">
+            <img src="../assets/img/FrontPageEl/LogoBL3.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.60">
+            <img src="../assets/img/FrontPageEl/TitleN.png" alt=""/>
+        </div>
+        <div class="layer" data-depth="0.65">
+            <img src="../assets/img/FrontPageEl/TitleF.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.30">
+            <img src="../assets/img/FrontPageEl/TitleBL1.png" alt=""/>
+        </div>
+        <div class="layer lowOpacity" data-depth="0.90">
+            <img src="../assets/img/FrontPageEl/TitleBL2.png" alt=""/>
+        </div>
+    </div>
+
+<script src="../assets/js/jquery-1.11.3.min.js"></script>
+<script src="../assets/js/parallax/jquery.parallax.js"></script>
+<script>
+    $(function(){
+        var parallax = $('.scene').parallax();
+
+        setInterval(function(){
+            parallax.parallax('updateLayers');
+        },1000);
+    });
+</script>
+</body>
+</html>
