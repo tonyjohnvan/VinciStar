@@ -102,6 +102,36 @@ body, html {
         transform: rotate(-360deg);
     }
 }
+.StarRings{
+    width: 250%;
+    height: auto;
+    position: absolute;
+    top: 650px;
+    left: -350px;
+}
+
+.Star1,
+.Star2,
+.Star3,
+.Star4{
+    position: absolute;
+}
+.Star2{
+    top: 750px;
+    left: 520px;
+}
+.Star1{
+    top: 850px;
+    left: 420px;
+}
+.Star3{
+    top: 750px;
+    left: 10px;
+}
+.Star4{
+    top: 1100px;
+    left: 120px;
+}
 
 /*.sun {*/
 /*width: 413px;*/
