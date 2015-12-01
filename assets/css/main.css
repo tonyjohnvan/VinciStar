@@ -37,7 +37,10 @@ body, html {
 }
 
 .lowOpacity {
-    opacity: 0.4;
+    opacity: 0.25;
+}
+.lowOpacity.evenLower {
+    opacity: 0.15;
 }
 
 .OutterRing {
